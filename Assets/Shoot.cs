@@ -7,7 +7,8 @@ public class Shoot : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // ToDo put movement
+        // ToDo put aim to mousepos
+
     }
 
     // Update is called once per frame
