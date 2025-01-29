@@ -18,7 +18,7 @@ public class Movement : MonoBehaviour
          // Get input from the horizontal (A/D or Arrow keys) and vertical (W/S or Arrow keys)
         movement.x = Input.GetAxisRaw("Horizontal"); // -1 = left, 1 = right
         movement.y = Input.GetAxisRaw("Vertical");   // -1 = down, 1 = up
-        
+        //ok les try
     }
     void FixedUpdate()
     {
