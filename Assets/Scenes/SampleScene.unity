@@ -248,7 +248,6 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -330,18 +329,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 955170589}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01100b544d9e3f04a86494bac6ad628f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &690962334
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,9 +423,9 @@ GameObject:
   m_Component:
   - component: {fileID: 955170589}
   - component: {fileID: 955170588}
-  - component: {fileID: 955170591}
   - component: {fileID: 955170590}
   - component: {fileID: 955170592}
+  - component: {fileID: 955170593}
   m_Layer: 0
   m_Name: Main player
   m_TagString: Untagged
@@ -542,18 +529,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &955170591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 955170587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01100b544d9e3f04a86494bac6ad628f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &955170592
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -599,6 +574,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &955170593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955170587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2cc0dbd9d6dcc549af964d7462b0ac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
