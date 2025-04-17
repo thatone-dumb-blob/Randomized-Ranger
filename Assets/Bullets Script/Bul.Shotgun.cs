@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Randomizer_Shoot : MonoBehaviour
+public class Shooting : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform firePoint;
@@ -17,7 +17,8 @@ public class Randomizer_Shoot : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && Time.time >= lastShotTime + shootCooldown)
         {
-
+            Shoot();
+            Shoot();
             Shoot();
             lastShotTime = Time.time;
         }
