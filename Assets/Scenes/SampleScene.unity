@@ -966,6 +966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 955170589}
   enemySpeed: 3
+  MaxHp: 1
 --- !u!1 &737401687
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,8 +1529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1159173384}
   firePoint: {fileID: 2121595218}
-  bulletSpeed: 30
-  shootCooldown: 0.1
+  bulletSpeed: 20
+  shootCooldown: 0.5
   BulletLifetime: 3
   maxBullets: 30
 --- !u!1660057539 &9223372036854775807
